@@ -227,6 +227,14 @@ body{
 		.ftrmenu a{
 			 color:#707070; margin:0 10px;
 		}
+.ftrmenu ul li{
+	list-style: none;
+	display: inline-block;
+	border-right: 1px solid #ccc;
+}
+.ftrmenu ul li:last-child{
+	border-right: none;
+}
 		
 		
 /*		ABOUT		*/
@@ -374,3 +382,9 @@ body{
 	.right-bar a:hover{
 		color:#d7a229;  
 	}
+	.whatwedo a {
+		color: #000;
+	}
+.whatwedo a:hover {
+	text-decoration: none;
+}
